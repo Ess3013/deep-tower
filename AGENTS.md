@@ -1,25 +1,24 @@
-# AGENTS.md - DeepTower
+# DeepTower - Godot 4.6 Game Project
 
-## Project Type
-Godot 4.6 game project using GDScript. Currently empty - no scripts or scenes created yet.
+## Running
+- Open with Godot Editor 4.6+ → Press F5 or click Play
+- Main scene: `Player.tscn` (uid://dbacy83r6nbf8)
 
-## Running the Project
-- Open with Godot Editor 4.6+
-- Press F5 or click Play to run
-- No command-line runner needed - use the editor
-
-## Key Settings (project.godot)
+## Project Settings
 - **Rendering**: Forward Plus (not Mobile/Compatibility)
-- **Physics**: Jolt Physics for 3D (not GodotPhysics)
+- **Physics**: Jolt Physics for 3D
 - **Windows Driver**: D3D12
 
-## File Extensions
+## Files
 - Scripts: `.gd`
-- Scenes: `.tscn`
+- Scenes: `.tscn` (Block.tscn, World.tscn, Player.tscn)
 - Resources: `.tres`
-- Shaders: `.gdshader`
 
-## Development Notes
-- `.godot/` folder is auto-generated - do not edit
-- Export presets go in `export_presets.cfg` (create if needed)
-- Addons go in `addons/`
+## Git Ignore
+- `.godot/` (auto-generated)
+- `/android/`
+
+## Notes
+- Do not edit `.godot/` folder
+- Export presets: `export_presets.cfg`
+- Addons: `addons/`
